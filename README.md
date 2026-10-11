@@ -1,5 +1,5 @@
 # HobbyHub ✨
-HobbyHub is a school project developed as part of my Multimedia and Creative Technologies studies. It is a platform for discovering, saving, and organizing tutorials for creative and technical hobbies. From 3D modeling and coding to art and baking, users can explore tutorials, create personalized learning roadmaps, and keep track of hobbies they want to try or improve.
+HobbyHub is a school project built during my Multimedia and Creative Technologies studies. It's a platform for discovering, saving, and organizing tutorials across creative and technical hobbies From 3D modeling and coding to art and baking, users can explore tutorials, build personalized learning roadmaps, and track the hobbies they want to try or improve.
 
 #### Website url: [Click Here (Check your server)](http://10.2.160.227)
 
