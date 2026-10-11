@@ -6,8 +6,8 @@ HobbyHub is a school project developed as part of my Multimedia and Creative Tec
 ## Up & running 🏃‍➡️
 - Register to have the full experience!
 #### If you want to see an already "in use" account, use these credentials:
-- email: test@mail.com
-- password: Test1234
+- email: demo@hobbyhub.com
+- password: Demo1234
 
 ## Sources 🗃️
 ### Documentations
