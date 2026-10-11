@@ -11,6 +11,12 @@ HobbyHub is a school project built during my Multimedia and Creative Technologie
 - email: demo@hobbyhub.com
 - password: Demo1234
 
+## Tech Stack
+
+- **Backend:** PHP (Laravel Blade)
+- **Frontend:** CSS, JavaScript
+- **Deployment:** Railway
+
 ## Sources 🗃️
 ### Documentations
 #### AI Chats
