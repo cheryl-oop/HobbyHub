@@ -1,7 +1,8 @@
 # HobbyHub ✨
 HobbyHub is a school project built during my Multimedia and Creative Technologies studies. It's a platform for discovering, saving, and organizing tutorials across creative and technical hobbies From 3D modeling and coding to art and baking, users can explore tutorials, build personalized learning roadmaps, and track the hobbies they want to try or improve.
+![Uploading Screenshot 2026-10-12 001025.png…]()
 
-#### Website url: [Click Here (Check your server)](http://10.2.160.227)
+#### Website url: [Live website](https://hobbyhub-streamplatform.up.railway.app/)
 
 ## Up & running 🏃‍➡️
 - Register to have the full experience!
