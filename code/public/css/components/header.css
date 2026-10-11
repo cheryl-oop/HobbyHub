@@ -1,0 +1,118 @@
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2.5rem;
+    background-color: #fffcfd;
+    border-bottom: 2px solid #fcdae5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    flex-shrink: 0;
+}
+
+.logo h2 {
+    font-size: 1.8rem;
+    color: #C43670;
+    letter-spacing: 1px;
+}
+
+.nav-center {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: #222;
+    font-size: 0.95rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.2s ease;
+}
+
+.nav-center a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #C43670;
+    transition: width 0.2s ease;
+}
+
+.nav-center a:hover {
+    color: #C43670;
+}
+
+.nav-center a:hover::after {
+    width: 100%;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-right p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #C43670;
+    border: 2px solid #C43670;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-right a:hover {
+    background-color: #C43670;
+    color: #fff;
+}
+
+/* Logout button matches the link style */
+.nav-right button {
+    background: none;
+    border: 2px solid #C43670;
+    color: #C43670;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-right button:hover {
+    background-color: #C43670;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .nav-center {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .nav-right {
+        gap: 0.5rem;
+    }
+}

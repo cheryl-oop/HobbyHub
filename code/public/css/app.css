@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/bly1jgh.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #fffcfd;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.section {
+    padding: 0 3rem;
+}
+
+.landing-description{
+    width: 50%;
+}
+
+h1, h2, h3 {
+    font-family: "minute", sans-serif;
+    font-weight: 100;
+    color: #C43670
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    background-color: #C43670;
+    color: #fffcfd;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d7fb91;
+    color: #C43670;
+}
+
+.back-button {
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    white-space: nowrap;
+    width: 12rem;
+}
+
+.back-button:hover{
+    background-color: #fffcfd;
+    color: #C43670;
+}
+
+.badge{
+        background-color: #d7fb91;
+        color: #C43670;
+        padding: 0.2rem 0.6rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }

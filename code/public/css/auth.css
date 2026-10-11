@@ -1,0 +1,60 @@
+/* Override Tailwind indigo/gray colors with your pink theme */
+
+/* Primary button */
+.bg-indigo-600,
+[type='submit'] {
+    background-color: #C43670 !important;
+    border-color: #C43670 !important;
+    color: white !important;
+}
+
+.bg-indigo-600:hover,
+[type='submit']:hover {
+    background-color: #fffcfd !important;
+    color: #C43670 !important;
+}
+
+/* Focus rings */
+.focus\:ring-indigo-500:focus {
+    --tw-ring-color: #C43670 !important;
+}
+
+/* Links */
+.text-indigo-600,
+.hover\:text-gray-900:hover {
+    color: #C43670 !important;
+}
+
+/* Checkbox */
+.text-indigo-600[type="checkbox"] {
+    accent-color: #C43670 !important;
+}
+
+/* Input focus border */
+.focus\:border-indigo-500:focus,
+.focus\:ring-indigo-500:focus {
+    border-color: #C43670 !important;
+    --tw-ring-color: #C43670 !important;
+}
+
+/* Breeze guest layout wrapper */
+.min-h-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #ffe1e7;
+}
+
+/* The white card Breeze wraps the form in */
+.w-full {
+    max-width: 420px !important;
+    width: 100% !important;
+}
+
+.bg-white {
+    background-color: #fffcfd !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+    padding: 2.5rem !important;
+}

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b4f65b6-e244-46ce-b836-96dc660689f5" name="Changes" comment="feat: new roadmaps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/Http/Controllers/RoadmapController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/Http/Controllers/RoadmapController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/database/migrations/2026_04_27_084530_create_tutorials_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/database/migrations/2026_04_27_084530_create_tutorials_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/database/migrations/2026_05_03_151809_create_roadmaps_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/database/migrations/2026_05_03_151809_create_roadmaps_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/resources/views/roadmaps/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/resources/views/roadmaps/index.blade.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/code/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="PHP File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CherylAitchedji&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EHB-MCT/to-binge-or-not-to-binge-CherylAitchedji.git&quot;,
+    &quot;accountId&quot;: &quot;ce4ea5be-0ef1-4ae2-b6e1-7f4058affe3a&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/code/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/code/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/code/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/code/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/code/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/code/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest-plugin" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest-plugin-laravel" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest-plugin-arch" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest-plugin-profanity" />
+      <path value="$PROJECT_DIR$/code/vendor/pestphp/pest-plugin-mutate" />
+      <path value="$PROJECT_DIR$/code/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/code/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/code/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/code/vendor/composer" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/code/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-php84" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/code/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/code/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/code/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/code/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/code/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/code/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/code/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/code/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/code/vendor/brianium/paratest" />
+      <path value="$PROJECT_DIR$/code/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/code/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/code/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/code/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/code/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/code/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/code/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/code/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/code/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/code/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/code/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/code/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/code/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/code/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/code/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/code/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/code/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/code/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/code/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/code/vendor/league/config" />
+      <path value="$PROJECT_DIR$/code/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/code/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/code/vendor/league/flysystem-local" />
+      <path value="$PROJECT_DIR$/code/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/code/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/code/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/code/vendor/staabm/side-effects-detector" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/code/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/code/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/code/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/code/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/code/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/code/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/pail" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/prompts" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/code/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/code/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/code/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/code/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/code/vendor/ta-tikoma/phpunit-architecture-test" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/breeze" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/polyfill-php86" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/boost" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/roster" />
+      <path value="$PROJECT_DIR$/code/vendor/laravel/mcp" />
+      <path value="$PROJECT_DIR$/code/vendor/symfony/yaml" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3CIngQ3TLFlAkaAHZbs2jQeSAM9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chery/OneDrive/Documents/Multimedia en CreatieveT/2025-2026/Semester 2/Back-End/to-binge-or-not-to-binge-CherylAitchedji&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chery\OneDrive\Documents\Multimedia en CreatieveT\2025-2026\Semester 2\Back-End\to-binge-or-not-to-binge-CherylAitchedji\code\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chery\OneDrive\Documents\Multimedia en CreatieveT\2025-2026\Semester 2\Back-End\to-binge-or-not-to-binge-CherylAitchedji\code\public" />
+      <recent name="C:\Users\chery\OneDrive\Documents\Multimedia en CreatieveT\2025-2026\Semester 2\Back-End\to-binge-or-not-to-binge-CherylAitchedji\code\public\js" />
+      <recent name="C:\Users\chery\OneDrive\Documents\Multimedia en CreatieveT\2025-2026\Semester 2\Back-End\to-binge-or-not-to-binge-CherylAitchedji\code\resources\views\tutorials" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PestRunConfigurationType">
+      <PestRunner configuration_file="$PROJECT_DIR$/code/phpunit.xml" scope="ConfigurationFile" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PS-253.30387.85" />
+        <option value="bundled-php-predefined-a98d8de5180a-0e0d91225499-com.jetbrains.php.sharedIndexes-PS-253.30387.85" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b4f65b6-e244-46ce-b836-96dc660689f5" name="Changes" comment="" />
+      <created>1776082069323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776082069323</updated>
+      <workItem from="1776082072496" duration="1000" />
+      <workItem from="1776082226737" duration="5728000" />
+      <workItem from="1777277422264" duration="864000" />
+      <workItem from="1777278299657" duration="5960000" />
+      <workItem from="1777400900199" duration="1828000" />
+      <workItem from="1777403659249" duration="3257000" />
+      <workItem from="1777644004046" duration="11864000" />
+      <workItem from="1777812675233" duration="9066000" />
+      <workItem from="1778061902306" duration="7225000" />
+      <workItem from="1778069237926" duration="28000" />
+      <workItem from="1778154724342" duration="10807000" />
+      <workItem from="1778496789309" duration="23494000" />
+      <workItem from="1778662106244" duration="27530000" />
+      <workItem from="1778702983169" duration="13267000" />
+      <workItem from="1778750350172" duration="25417000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Setup Laravel project">
+      <option name="closed" value="true" />
+      <created>1776086631553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776086631553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Feat: Can see tutorials on homepage (simplified)">
+      <option name="closed" value="true" />
+      <created>1777404892504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777404892504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat: Dynamic detail page for tutorial">
+      <option name="closed" value="true" />
+      <created>1777405981066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777405981066</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feat: Tutorials can now be filtered by category and difficulty">
+      <option name="closed" value="true" />
+      <created>1777652256256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777652256256</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix: Category is now a table">
+      <option name="closed" value="true" />
+      <created>1777656187947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777656187947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: User can now login and register">
+      <option name="closed" value="true" />
+      <created>1777815296775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777815296775</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Feat: User can now save tutorials and see the tutorials on the saved page.&#10;Fix: After login, it redirects to the homepage.">
+      <option name="closed" value="true" />
+      <created>1777819015750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777819015750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Last commit of te day: Roadmaps and roadmaps_tutorials tables implemented">
+      <option name="closed" value="true" />
+      <created>1777822821363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777822821363</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: after login, email verification, ect. redirects the user to the home page">
+      <option name="closed" value="true" />
+      <created>1778062233983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778062233983</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: Commit unversioned files">
+      <option name="closed" value="true" />
+      <created>1778062325404</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1778062325404</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Feat: Roadmap feature (logic)">
+      <option name="closed" value="true" />
+      <created>1778069162769</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778069162769</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Feat: Roadmap feature (logic)">
+      <option name="closed" value="true" />
+      <created>1778069170309</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778069170309</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ver: 8.3">
+      <option name="closed" value="true" />
+      <created>1778164478013</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778164478013</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fix: roadmaps now show the list of their tutorials (on the roadmap index page)">
+      <option name="closed" value="true" />
+      <created>1778497619419</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778497619419</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Feat: tutorials now can be added and removed visualy from a selected tutorial list.">
+      <option name="closed" value="true" />
+      <created>1778509814604</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778509814604</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: users can now edit roadmaps">
+      <option name="closed" value="true" />
+      <created>1778517337908</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1778517337908</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix: in roadmap/create.blade: it doesn't show the whole category object anymore when selecting a tutorial">
+      <option name="closed" value="true" />
+      <created>1778517628345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778517628345</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: categories table is now made first before tutorials">
+      <option name="closed" value="true" />
+      <created>1778663495117</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1778663495117</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: now handles given data, thumbnails of tutorials are shown (dymanically)">
+      <option name="closed" value="true" />
+      <created>1778678738849</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778678738849</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: progress tracking implementation&#10;fix: when tutorial is marked as complete, it doesn't give an error anymore">
+      <option name="closed" value="true" />
+      <created>1778683799158</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1778683799158</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: home section now shows suggesting tutorials from roadmaps">
+      <option name="closed" value="true" />
+      <created>1778686545853</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1778686545853</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat: saved tutorials are now shown on the home page">
+      <option name="closed" value="true" />
+      <created>1778688510893</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1778688510893</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: submit button works, can make roadmaps">
+      <option name="closed" value="true" />
+      <created>1778689114840</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1778689114840</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat: styling&#10;fix: roadmap/create and edit, tutorials doesn't show double anymore">
+      <option name="closed" value="true" />
+      <created>1778760895781</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1778760895782</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: new roadmaps">
+      <option name="closed" value="true" />
+      <created>1778981567832</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1778981567832</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Setup Laravel project" />
+    <MESSAGE value="Feat: Can see tutorials on homepage (simplified)" />
+    <MESSAGE value="Feat: Dynamic detail page for tutorial" />
+    <MESSAGE value="Feat: Tutorials can now be filtered by category and difficulty" />
+    <MESSAGE value="Fix: Category is now a table" />
+    <MESSAGE value="Feat: User can now login and register" />
+    <MESSAGE value="Feat: User can now save tutorials and see the tutorials on the saved page.&#10;Fix: After login, it redirects to the homepage." />
+    <MESSAGE value="Last commit of te day: Roadmaps and roadmaps_tutorials tables implemented" />
+    <MESSAGE value="fix: after login, email verification, ect. redirects the user to the home page" />
+    <MESSAGE value="fix: Commit unversioned files" />
+    <MESSAGE value="Feat: Roadmap feature (logic)" />
+    <MESSAGE value="Ver: 8.3" />
+    <MESSAGE value="Fix: roadmaps now show the list of their tutorials (on the roadmap index page)" />
+    <MESSAGE value="Feat: tutorials now can be added and removed visualy from a selected tutorial list." />
+    <MESSAGE value="feat: users can now edit roadmaps" />
+    <MESSAGE value="fix: in roadmap/create.blade: it doesn't show the whole category object anymore when selecting a tutorial" />
+    <MESSAGE value="fix: categories table is now made first before tutorials" />
+    <MESSAGE value="feat: now handles given data, thumbnails of tutorials are shown (dymanically)" />
+    <MESSAGE value="feat: progress tracking implementation&#10;fix: when tutorial is marked as complete, it doesn't give an error anymore" />
+    <MESSAGE value="feat: home section now shows suggesting tutorials from roadmaps" />
+    <MESSAGE value="feat: saved tutorials are now shown on the home page" />
+    <MESSAGE value="fix: submit button works, can make roadmaps" />
+    <MESSAGE value="feat: styling&#10;fix: roadmap/create and edit, tutorials doesn't show double anymore" />
+    <MESSAGE value="feat: new roadmaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: new roadmaps" />
+  </component>
+</project>
